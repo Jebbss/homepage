@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+.subHeading {
+  font-weight: 300;
+  color:white;
+}
+body {
+  background: #23252D !important;
+
+}
+.container {
+  color: #CACACC;
+}
+
+.smallerImg {
+  width: 20%;
+}
+
+i:hover {
+  color: white;
+}
+.changeLogDetails {
+  color:white;
+  font-weight: 300;
+}
+.liUpdates {
+  list-style:none;
+}
+.updates {
+  color:'e9bc3f';
+  text-decoration: none;
+}
+.speakerBio {
+  background: "#2f313b";
+  color:white;
+  line-height: 1.8em;
+}
