@@ -76,6 +76,10 @@ export class AppComponent implements OnInit{
       ],
       updates: [
         {
+          description: "Idea notebook",
+          link: 'https://jeb-vidjot.herokuapp.com/'
+        },
+        {
           description: "File meta data microservice",
           link: 'https://jeb-filemetadata.herokuapp.com/'
         },
