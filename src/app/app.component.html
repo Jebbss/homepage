@@ -19,7 +19,7 @@
     </ng-template>
     changeLog
   </h3>
-  <p class="description">Jeb has been studying computer science, attending university and working part time.</p>
+  <p class="description">Jeb has been diving into his career and studying</p>
   <div *ngIf="!logOpen" [@fadeInOut]>
   <ul>
     <li *ngFor="let change of portfolio.changeLog" [ngStyle]="{'color':change.color}"
@@ -46,7 +46,7 @@
       </ng-template>
       Updates/Releases
     </h3>
-    <p class="description">Some releases</p>
+    <p class="description">Some projects</p>
     <div *ngIf="!updateOpen" [@fadeInOut]>
       <ul>
         <li class="liUpdates pt-3" *ngFor="let update of portfolio.updates">
@@ -64,7 +64,7 @@
       </ng-template>
       Speaker Bio
     </h3>
-    <p class="description">Just a little bit more about Jeb. </p>
+    <p class="description">Just a little bit more about Jeb </p>
     <div *ngIf="!bioOpen" class="speakerBio p-5 mb-5" [@fadeInOut]>
       {{portfolio.speakerBio}}
     </div>
