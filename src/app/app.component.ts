@@ -53,6 +53,20 @@ export class AppComponent implements OnInit{
       introduction: 'Hi, I\'m Jeb',
       changeLog: [
         {
+          color: "#eb4888",
+          month: "June",
+          year: 2018,
+          highlight: "Started new role as Software Developer at FedEx",
+          details: "Develops large scale enterprise applications in a scrum team."
+        },
+        {
+          color: "#10a2f5",
+          month: "May",
+          year: 2018,
+          highlight: "Graduated from Univesity of Wisconsin-Madison!",
+          details: "Graduated with a focus on Computer Science, Chinese and East Asian studies."
+        },
+        {
           color: "#24d05a",
           month: "December",
           year: 2017,
@@ -67,7 +81,7 @@ export class AppComponent implements OnInit{
           details: "Leads a community of 50 residents in university housing."
         },
         {
-          color: "#10a2f5",
+          color: "#f56310",
           month: "September",
           year: 2016,
           highlight: "Started new role as Student Assistant at College Library",
@@ -92,7 +106,7 @@ export class AppComponent implements OnInit{
           link: 'https://codepen.io/jebbss/full/EXgbKw/'
         }
       ],
-      speakerBio: "Jeb is currently a student at the University of Wisconsin-Madison, graduating in May of 2018 and seeking full time employment. His focuses at university include Computer Science and Chinese language and culture. Outside of academics he holds two part time jobs as a student assistant in the College Library InfoLab and a Resident Advisor in the dormitories. Within the Computer Science major, Jeb has exposure to Operating Systems, Database management and Computer Networks, completing team projects in each area. Outside of class, Jeb is currently focused on self-studying various technologies and their applications with a emphasis on web-development. "
+      speakerBio: "Jeb is currently a software developer at FedEx where he maintains, upgrades and creates enterprise-scale java applications as part of a scrum team.  During his time at university his focuses included Computer Science and Chinese language and culture. Jeb has exposure to Operating Systems, Database management and Computer Networks, completing team projects in each area. In his freetime, Jeb studies various technologies, their applications and gets outdoors."
     };
   }
 
