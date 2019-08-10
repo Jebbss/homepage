@@ -53,6 +53,13 @@ export class AppComponent implements OnInit{
       introduction: 'Hi, I\'m Jeb',
       changeLog: [
         {
+          color: "#f56310",
+          month: "June",
+          year: 2019,
+          highlight: "Joined Accenture as a Software Artisan for Industry X.0",
+          details: "Continiously uplifts team and clients while delievering thin slices."
+        },
+        {
           color: "#eb4888",
           month: "June",
           year: 2018,
@@ -106,7 +113,7 @@ export class AppComponent implements OnInit{
           link: 'https://codepen.io/jebbss/full/EXgbKw/'
         }
       ],
-      speakerBio: "Jeb is currently a software developer at FedEx where he maintains, upgrades and creates enterprise-scale java applications as part of a scrum team.  During his time at university his focuses included Computer Science and Chinese language and culture. Jeb has exposure to Operating Systems, Database management and Computer Networks, completing team projects in each area. In his freetime, Jeb studies various technologies, their applications and gets outdoors."
+      speakerBio: "Jeb is currently a Software Artisan as part of Industry X.0 at Accenture. Currently he works to continuously uplift team, clients and self while delivering thin slices of software. His past experience includes creating, upgrading and maintaining distributed java applications as part of a scrum team.  During his time at university his focuses included Computer Science and Chinese language and culture. Jeb has exposure to Operating Systems, Database management and Computer Networks, completing team projects in each area. In his free time, Jeb studies various technologies, their applications and gets outdoors."
     };
   }
 
