@@ -70,7 +70,7 @@ export class AppComponent implements OnInit{
           color: "#10a2f5",
           month: "May",
           year: 2018,
-          highlight: "Graduated from Univesity of Wisconsin-Madison!",
+          highlight: "Graduated from University of Wisconsin-Madison!",
           details: "Graduated with a focus on Computer Science, Chinese and East Asian studies."
         },
         {
